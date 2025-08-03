@@ -18,7 +18,7 @@ const Homepage = () => {
               </h2>
               <p className="dark:text-[#D1D5DB] text-[#374151] mt-6 tracking-[2px] leading-[25px] xl:leading-[30px] sm:pr-20 sm:text-sm lg:text-base lg:pr-40 xl:pr-60 font-extralight text-xs xl:text-lg xl:mt-10 xl:tracking-[5px]" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="400">
                 I’m Muhammad Abdi Fardani, a Junior Web Developer with a passion
-                for IoT and Data Analysis. I focus on building smart, efficient,
+                for IoT. I focus on building smart, efficient,
                 and user-oriented digital solutions.
               </p>
             </div>
