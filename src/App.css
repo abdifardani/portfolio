@@ -1,0 +1,101 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+.span {
+    @apply duration-500 transition-all ease-in-out;
+}
+
+.container-span1:hover .span {
+    @apply bg-[#999999] ;
+}
+
+.span:nth-child(1) {
+    @apply w-9 h-[2px] ml-auto;
+}
+.span:nth-child(2) {
+    @apply w-5 h-[2px] ml-auto;
+}
+.span:nth-child(3) {
+    @apply w-7 h-[2px] ml-auto;
+}
+
+.hamburger-animation .span:nth-child(1) {
+  @apply rotate-45 translate-y-[8px] w-7;
+}
+
+.container-span2:hover .span:nth-child(1) {
+  @apply w-6;
+}
+
+.container-span2:hover .span:nth-child(2) {
+  @apply w-9;
+}
+
+.container-span2:hover .span:nth-child(3) {
+  @apply w-4;
+}
+
+.hamburger-animation .span:nth-child(2) {
+    @apply hidden;
+}
+
+.hamburger-animation .span:nth-child(3) {
+  @apply -rotate-45 -translate-y-[10px] w-7;
+}
+
+@keyframes move {
+    0% {
+        transform: translateX(0)
+    }
+    100% {
+        transform: translateX(-230%)
+    }
+}
+@keyframes move2 {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-260%);
+    }
+}
+
+.move {
+    animation: move 5s linear infinite;
+}
+
+
+.move2 {
+    animation: move2 5s linear infinite;
+}
+
+@keyframes show {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 100;
+        transform: translateY(0);
+    }
+}
+
+@keyframes hiddenAnimation {
+    form {
+        opacity: 100;
+    }
+    to {
+        opacity: 0;
+        display: none;
+        transform: translateY(-20px);
+    }
+}
+
+.show {
+    animation: show 0.5s forwards; 
+}
+
+.hiddenAnimation {
+    animation: hiddenAnimation 0.5s forwards;
+}
