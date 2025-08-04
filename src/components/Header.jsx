@@ -142,13 +142,13 @@ const Header = () => {
               <h1 className="dark:text-white text-black">Get InTouch</h1>
 
               <div className="mt-4 flex gap-15 flex-wrap">
-                <a href={import.meta.env.VITE_APP_HEADER_LINKEDIN_URI} target="_blank" className="flex items-center gap-2">
+                <a href={import.meta.env.VITE_APP_HEADER_LINKEDIN_URI} target="_blank" className="flex items-center gap-2 cursor-pointer">
                   <div className="w-8">
                     <img src="linkedin.png" alt="" />
                   </div>
                   <span className="dark:text-white text-black">@abdi.frdn</span>
                 </a>
-                <a href={import.meta.env.VITE_APP_HEADER_INSTAGRAM_URI} target="_blank" className="flex items-center gap-2">
+                <a href={import.meta.env.VITE_APP_HEADER_INSTAGRAM_URI} target="_blank" className="flex items-center gap-2 cursor-pointer">
                   <div className="w-8">
                     <div className="w-9 h-9 p-1 bg-white rounded-sm box-border">
                     <img src="ig.png" alt="" />
