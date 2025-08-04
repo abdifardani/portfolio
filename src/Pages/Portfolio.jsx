@@ -19,7 +19,7 @@ const Portfoliopage = () => {
               className="md:w-100 bg-[#1C1C1C] rounded-md overflow-hidden cursor-pointer hover:scale-105 transition-all duration-500 will-change-transform active:scale-90 block"
             >
               <div className="w-full">
-                <img src="iotproject.jpg" alt="" />
+                <img src="codingproject.jpg" alt="" />
               </div>
               <div className="mt-2 p-2">
                 <h1 className="text-white">Front-End Project</h1>
