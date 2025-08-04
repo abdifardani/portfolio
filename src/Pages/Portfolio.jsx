@@ -12,7 +12,6 @@ const Portfoliopage = () => {
             data-aos="fade-right"
             data-aos-anchor-placement="top-bottom"
             data-aos-duration="1200"
-            data-aos-offset="200"
           >
             <Link
               to="/frontend"
@@ -33,9 +32,7 @@ const Portfoliopage = () => {
           <div
             data-aos="fade-left"
             data-aos-anchor-placement="top-bottom"
-            data-aos-duration="1200"
-            data-aos-offset="200"
-            data-aos-delay="200"
+            data-aos-duration="1200"  
           >
             <Link
               to="/iot"
