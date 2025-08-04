@@ -48,10 +48,10 @@ const Header = () => {
 
   console.log(darkmode)
   return (
-    <header className="py-3 border-b-1 border-b-[#1F1F1F] text-white fixed top-0 right-0 left-0 z-50 max-w-[1280px] w-full mx-auto bg-[#E5E7EB] dark:bg-[#0D0D0D] lg:h-16">
+    <header className="py-3 border-b-1 border-b-[#1F1F1F] text-white fixed top-0 right-0 left-0 z-50 max-w-[1280px] w-full mx-auto bg-[#E5E7EB] dark:bg-[#0D0D0D] lg:h-18 h:14 sm:h-16">
       <div className="max-w-[1280px] w-full mx-auto px-6 lg:px-25 flex justify-between items-center h-full">
         <div>
-          <h1 className={`text-black font-semibold text-xl dark:text-white`}>Muhammad Abdi Fardani</h1>
+          <h1 className={`text-black font-semibold text-base md:text-2xl sm:text-lg dark:text-white`}>Muhammad Abdi Fardani</h1>
         </div>
         <div
           onClick={hamburgerClick}

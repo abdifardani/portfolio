@@ -14,12 +14,12 @@ const Portfoliopage = () => {
             data-aos-duration="1200"
             data-aos-offset="200"
           >
-            <a 
-              href="/frontend"
+            <Link
+              to="/frontend"
               className="md:w-100 bg-[#1C1C1C] rounded-md overflow-hidden cursor-pointer hover:scale-105 transition-all duration-500 will-change-transform active:scale-90 block"
             >
               <div className="w-full">
-                <img src="codingproject.jpg" alt="" />
+                <img src="iotproject.jpg" alt="" />
               </div>
               <div className="mt-2 p-2">
                 <h1 className="text-white">Front-End Project</h1>
@@ -27,7 +27,7 @@ const Portfoliopage = () => {
                   All of My Front-end Website Projet
                 </p>
               </div>
-            </a>
+            </Link>
           </div>
 
           <div

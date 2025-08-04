@@ -49,8 +49,8 @@ const Homepage = () => {
           </div>
 
           <div className="w-full h-auto dark:bg-[#1E1E1E] bg-[#E5E7EB] relative mt-10 rounded-2xl">
-            <div className="w-full h-100 lg:h-120 flex justify-center items-center relative overflow-hidden">
-              <img src="mainport.png" alt="" width="" className="h-full"/>
+            <div className="w-full h-60 sm:h-100 lg:h-120 flex items-end justify-center relative overflow-hidden">
+              <img src="mainport.png" alt="" width="" className="h-full sm:h-full"/>
             </div>
           </div>
         </div>
