@@ -6,7 +6,6 @@ const Header = () => {
   const [closeAnimation, setCloseAnimation] = useState(false);
   const [removeHidden, setRemoveHidden] = useState(false);
   const [darkmode, setDarkmode] = useState(() => {
-    // localStorage.setItem('theme') === 'dark';
     return localStorage.getItem("theme") === "dark";
   });
 
@@ -32,6 +31,10 @@ const Header = () => {
     setHamburgerAnimation(!hamburgerAnimation);
     setRemoveHidden(!removeHidden);
   };
+
+  useEffect(() => {
+    localStorage.setItem("theme", "dark");
+  }, [])
 
   useEffect(() => {
     if (darkmode) {
@@ -142,7 +145,7 @@ const Header = () => {
               <h1 className="dark:text-white text-black">Get InTouch</h1>
 
               <div className="mt-4 flex gap-15 flex-wrap">
-                <a href="https://www.linkedin.com/in/muhammad-abdi-fardani-a0bb4530b?utm_source=share&utm_campaign=share_via&utm_content=profile" target="_blank" className="flex items-center gap-2 cursor-pointer">
+                <a href="" target="_blank" className="flex items-center gap-2 cursor-pointer">
                   <div className="w-8">
                     <img src="linkedin.png" alt="" />
                   </div>

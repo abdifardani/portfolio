@@ -31,7 +31,9 @@ function App() {
       <Routes>
 
         <Route path="/" element={
-          <div className='relative xl m-0 max-w-[1280px] w-full mx-auto z-[99999] dark:bg-[#0F0F0F] bg-[#FFFFFF] overflow-x-hidden'>
+          <div className='relative xl m-0 max-w-[1280px] w-full mx-auto z-[99999] dark:bg-[#0F0F0F] bg-[#FFFFFF] 
+          overflow-x-hidden
+          '>
             <Header />
             <Homepage />
             <Aboutpage />
