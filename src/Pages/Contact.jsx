@@ -26,7 +26,7 @@ const Contactpage = () => {
           <form action="" className="w-full">
 
             <div className="flex justify-center gap-20 items-center flex-wrap">
-              <div className="w-full lg:w-2/5">
+              <div className="w-full md:w-2/5">
                 <div className="w-full lg:-mt-30">
                   <label htmlFor="" className="dark:text-white font-semibold text-gray-800">Nama</label>
                   <input
@@ -50,7 +50,7 @@ const Contactpage = () => {
               </div>
 
 
-              <div className=" mt-2 lg:mt-0 w-full lg:w-2/5">
+              <div className=" mt-2 lg:mt-0 w-full md:w-2/5">
                 <label htmlFor="" className="dark:text-white font-semibold text-gray-800">Comment</label>
                 <textarea
                   name="message"

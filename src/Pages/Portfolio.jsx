@@ -16,7 +16,7 @@ const Portfoliopage = () => {
           >
             <a 
               href="/frontend"
-              className="w-100 bg-[#1C1C1C] rounded-md overflow-hidden cursor-pointer hover:scale-105 transition-all duration-500 will-change-transform active:scale-90 block"
+              className="md:w-100 bg-[#1C1C1C] rounded-md overflow-hidden cursor-pointer hover:scale-105 transition-all duration-500 will-change-transform active:scale-90 block"
             >
               <div className="w-full">
                 <img src="codingproject.jpg" alt="" />
@@ -39,7 +39,7 @@ const Portfoliopage = () => {
           >
             <Link
               to="/iot"
-              className="w-100  bg-[#1C1C1C] rounded-md overflow-hidden cursor-pointer hover:scale-105 transition-all duration-500 will-change-transform active:scale-90 block"
+              className="md:w-100 bg-[#1C1C1C] rounded-md overflow-hidden cursor-pointer hover:scale-105 transition-all duration-500 will-change-transform active:scale-90 block"
             >
               <div className="w-full">
                 <img src="iotproject.jpg" alt="" />
