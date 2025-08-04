@@ -148,7 +148,7 @@ const Header = () => {
                   </div>
                   <span className="dark:text-white text-black">@abdi.frdn</span>
                 </a>
-                <a href={import.meta.env.VITE_APP_HEADER_INSTAGRAM_URI} target="_blank" className="flex items-center gap-2 cursor-pointer">
+                <a href="https://www.instagram.com/abdi.frdn" target="_blank" className="flex items-center gap-2 cursor-pointer">
                   <div className="w-8">
                     <div className="w-9 h-9 p-1 bg-white rounded-sm box-border">
                     <img src="ig.png" alt="" />
