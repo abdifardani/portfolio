@@ -5,6 +5,26 @@ const Contactpage = () => {
   const [email, setEmail] = useState("");
   const [comment, setComment] = useState("");
 
+  async function handleSendContact() {
+    const res = await fetch("http://localhost:8000/message/sendMessage", {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'appllication/json'
+      },
+      body: {
+        nama, email,comment
+      }
+    })
+
+    if(res.ok) {
+      const json = await res.json();
+      console.log(json);
+    }
+
+    const json = await res.json();
+    console.log(json);
+  }
+
   return (
     <section className="pt-30  " id="Contact">
       <div className="dark:bg-[#141414] bg-[#e0e0e0] pt-10 pb-30">
@@ -23,7 +43,7 @@ const Contactpage = () => {
         </div>
 
         <div className="p-8 w-full lg:mt-18 py-15">
-          <form action="" className="w-full">
+          <form action="" className="w-full" onSubmit={handleSendContact}>
 
             <div className="flex justify-center gap-20 items-center flex-wrap">
               <div className="w-full md:w-2/5">

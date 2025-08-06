@@ -10,7 +10,7 @@ const Homepage = () => {
             data-aos-delay="100"
             src="main.png"
             alt=""
-            className="w-18 h-18 xl:w-22 xl:h-22 rounded-full bg-red-800"
+            className="w-18 h-18 xl:w-22 xl:h-22 rounded-full"
           />
           <div
             className="mt-0.5"
