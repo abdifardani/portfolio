@@ -2,6 +2,14 @@
 
 @custom-variant dark (&:where(.dark, .dark *));
 
+
+@theme {
+    --color-border-gold: #FFAF00;
+    --color-default-backrgound-dark: #0F0F0F;
+    --color-backgruond-card: #1E1E1E;
+}
+
+
 .span {
     @apply duration-500 transition-all ease-in-out;
 }

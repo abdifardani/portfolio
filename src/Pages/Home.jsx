@@ -1,6 +1,6 @@
 const Homepage = () => {
   return (
-    <section className={`pt-32 xl:pt-35 px-6 lg:px-25 pb-30`}>
+    <section className={`pt-32 xl:pt-35 px-6 lg:px-10 pb-30`}>
       <div>
         <div className="flex gap-3 items-center">
           <img
@@ -59,7 +59,7 @@ const Homepage = () => {
           </div>
 
           <div
-            className="w-full h-auto dark:bg-[#1E1E1E] bg-[#E5E7EB] relative mt-10 rounded-2xl"
+            className="w-full h-auto dark:bg-backgruond-card bg-[#E5E7EB] relative mt-10 rounded-2xl"
             data-aos="fade-up"
             data-aos-duration="1200"
             data-aos-offset="50"

@@ -11,7 +11,7 @@ const Servicespage = () => {
         </p>
 
         <div className="mt-18 flex flex-wrap justify-center gap-8">
-          <div className="py-4 px-9 w-9/10 lg:w-100 dark:bg-[#1C1C1C] bg-[#e0e0e0] rounded-md">
+          <div className="py-4 px-9 w-9/10 lg:w-100 dark:bg-backgruond-card bg-[#e0e0e0] rounded-md">
             <h1 className="font-semibold text-xl dark:text-white text-gray-800">
               Elegant Landing Page
             </h1>
@@ -30,7 +30,7 @@ const Servicespage = () => {
               </button>
             </a>
           </div>
-          <div className="py-4 px-9 w-9/10 lg:w-100 dark:bg-[#1C1C1C] bg-[#e0e0e0] rounded-md">
+          <div className="py-4 px-9 w-9/10 lg:w-100 dark:bg-backgruond-card  bg-[#e0e0e0] rounded-md">
             <h1 className="font-semibold text-xl dark:text-white text-gray-800">
               UI to Code Implementation
             </h1>
