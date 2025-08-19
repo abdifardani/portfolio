@@ -59,7 +59,7 @@ const Homepage = () => {
           </div>
 
           <div
-            className="w-full h-auto dark:bg-backgruond-card bg-[#E5E7EB] relative mt-10 rounded-2xl"
+            className="w-full h-auto dark:bg-backgruond-card-dark bg-[#E5E7EB] relative mt-10 rounded-2xl"
             data-aos="fade-up"
             data-aos-duration="1200"
             data-aos-offset="50"

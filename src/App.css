@@ -6,7 +6,13 @@
 @theme {
     --color-border-gold: #FFAF00;
     --color-default-backrgound-dark: #0F0F0F;
-    --color-backgruond-card: #1E1E1E;
+    --color-backgruond-card-dark: #1E1E1E;
+    --color-judul-light: #1E293B;
+    --color-paragraf-light: #475569;
+    --color-semijudul-light: #334155;
+    --color-background-card-light: #FFFFFF;
+    --color-button: ;
+    --shadow-myshadow: 0 4px 20px rgba(0,0,0,0.5);
 }
 
 
