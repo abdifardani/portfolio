@@ -102,7 +102,7 @@ const Header = () => {
 
               <div className="mt-4 flex gap-15 flex-wrap">
                 <a
-                  href=""
+                  href="https://www.linkedin.com/in/muhammad-abdi-fardani-a0bb4530b/"
                   target="_blank"
                   className="flex items-center gap-2 cursor-pointer"
                 >

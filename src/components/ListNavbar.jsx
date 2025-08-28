@@ -9,7 +9,7 @@ function Listnav({ text, href, handleClick }) {
         {text}    
       </a>
     </li>
-  );
+  )
 }
 
 export default Listnav;
