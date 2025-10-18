@@ -8,8 +8,7 @@ const NewProject = () => {
           <img src="public/project-management.png" alt="" className="scale-80"/>
           <h3 className="dark:text-white text-xl font-normal mt-1 text-semijudul-light">Project Showcase</h3>
           <p className="my-6 text-sm text-paragraf-light dark:text-[#ffffff5b] tracking-[0.5px]">
-            A comprehensive showcase of all my projects, combining work from
-            different fields and technologies into one place.
+            A curated collection of my best works blending creativity, technology, and practical problem-solving. From small experiments to full- scale builds, it's all here.
           </p>
           <button className="cursor-pointer  flex items-center justify-between w-full -mt-2">
             <p className="text-border-gold">View The Projects</p>
@@ -20,8 +19,7 @@ const NewProject = () => {
           <img src="public/coding.png" alt="" className="scale-80"/>
           <h3 className="dark:text-white text-xl font-normal mt-1 text-semijudul-light">Web Projects</h3>
           <p className="my-6 text-sm text-paragraf-light dark:text-[#ffffff5b] tracking-[0.5px]">
-            A comprehensive showcase of all my projects, combining work from
-            different fields and technologies into one place.
+            Innovative web projects that reflect my passion for crafting interactive, visually refined, and meaningful online experiences.
           </p>
           <button className="cursor-pointer flex items-center justify-between w-full -mt-2">
             <p className="text-border-gold">View The Projects</p>
@@ -32,8 +30,7 @@ const NewProject = () => {
           <img src="public/iot.png" alt="" className="scale-80"/>
           <h3 className="dark:text-white text-xl font-normal mt-1 text-semijudul-light">IOT Projects </h3>
           <p className="my-6 text-sm text-paragraf-light dark:text-[#ffffff5b] tracking-[0.5px]">
-            A comprehensive showcase of all my projects, combining work from
-            different fields and technologies into one place.
+            Intelligent projects that bridge the digital and physical worlds through sensors, microcontrollers, and seamless connectivity.
           </p>
           <button className="cursor-pointer flex items-center justify-between w-full -mt-2">
             <p className="text-border-gold">View The Projects</p>
